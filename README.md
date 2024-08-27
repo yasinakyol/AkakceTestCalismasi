@@ -2,11 +2,11 @@
 
 Akakçe Test Çalışması için iletilen pdf'te 2. madde olan "Test Otomasyonu UI" ve 5. madde olan "API Testi için Rest Assured Test otomasyonu" için çalışmalar repository içinde Akakce.zip dokümanı içinde bulunmaktadır.
 
-Test Otomasyonu UI çalışmasında, "AkakceUITest" çalışması yapılmıştır. Elementlerin tanımlanasını xpath aracılığıyla yapmak istememe karşın çalıştırdığım her farklı gün ürüne ait xpath değiştiğinden mecburen cssSelector kullandım.
+Test Otomasyonu UI kapsamında, "AkakceUITest" çalışması yapılmıştır. Elementlerin tanımlanasını xpath aracılığıyla yapmak istememe karşın çalıştırdığım her farklı gün ürüne ait xpath değiştiğinden mecburen cssSelector kullandım.
 Her bir test adımına yorum ekledim.
 
 
-API Testi için Rest Assured Test otomasyonu çalışmasında, olabildiğince tüm adımlarda yaptıklarımı yorum şeklinde yazmaya çalıştım. Allure reports ve benzeri raporlama yöntemlerini kullanmak istesem de sürekli bir hata ile karşılaştım. Çalışmayı bitirmek için zamanım azaldığından yalnızca console ekranlarına test sonuçlarını yazdırdım. Benden istendiği gibi 5 adet test yazdım. Bu testlere aşağıda açıklamalarıyla birlikte yer verilmiştir.
+API Testi için Rest Assured Test otomasyonu kapsamında yapılan "APIOtomasyon" çalışmasında, olabildiğince tüm adımlarda yaptıklarımı yorum şeklinde yazmaya çalıştım. Allure reports ve benzeri raporlama yöntemlerini kullanmak istesem de sürekli bir hata ile karşılaştım. Çalışmayı bitirmek için zamanım azaldığından yalnızca console ekranlarına test sonuçlarını yazdırdım. Benden istendiği gibi 5 adet test yazdım. Bu testlere aşağıda açıklamalarıyla birlikte yer verilmiştir.
 
 • statuKoduTesti -> StatusCode 200 dönmesi durumunun kontrolü için yazılmıştıur. URL'den statusCode 200 döndüğünde başarılı olacaktır.
 
